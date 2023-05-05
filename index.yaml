@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  wordpress:
+  - apiVersion: v2
+    appVersion: v0.0.7
+    created: "2023-05-05T20:59:38.258560925Z"
+    description: A Helm chart for Kubernetes
+    digest: f374b73941b4ea2db16b60eb6a770241a48c836a9d2b78a25a9cbc54baa47ec6
+    name: wordpress
+    type: application
+    urls:
+    - https://nickvab.github.io/app_for_project/wordpress-v0.0.7.tgz
+    version: v0.0.7
+generated: "2023-05-05T20:59:38.257938226Z"
