@@ -38,3 +38,14 @@ jobs:
         uses: Azure/setup-helm@v3
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Publish Helm charts
+        uses: stefanprodan/helm-gh-pages@master
+        with:
+          charts_dir: ./Helm
+          branch: main
+          linting: off
+          charts_url: https://nickvab.github.io/app_for_project/
+          token: ${{ secrets.GH_TOKEN }}
+          app_version: ${{ steps.tag_version.outputs.new_tag }}
+          chart_version: ${{ steps.tag_version.outputs.new_tag }}
