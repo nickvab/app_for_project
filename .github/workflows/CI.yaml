@@ -43,7 +43,7 @@ jobs:
         uses: stefanprodan/helm-gh-pages@master
         with:
           charts_dir: ./Helm/helm-source
-          branch: main
+          branch: master
           linting: off
           charts_url: https://nickvab.github.io/app_for_project/
           token: ${{ secrets.GH_TOKEN }}
