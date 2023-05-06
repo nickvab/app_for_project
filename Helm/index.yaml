@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   wordpress:
   - apiVersion: v2
+    appVersion: v0.0.38
+    created: "2023-05-06T18:52:41.9080016Z"
+    description: A Helm chart for Kubernetes
+    digest: 27d19e96eb26963524ffeac5bf87e7d989514f0037603b775804022c58844f4d
+    name: wordpress
+    type: application
+    urls:
+    - https://nickvab.github.io/app_for_project/helm-releases/wordpress-v0.0.38.tgz
+    version: v0.0.38
+  - apiVersion: v2
     appVersion: v0.0.37
-    created: "2023-05-06T21:49:03.029276431+03:00"
+    created: "2023-05-06T18:52:41.907674888Z"
     description: A Helm chart for Kubernetes
     digest: 1ad841a2320067825fe5b114e5d2f946c66d14553bfc103495047c69fe98af61
     name: wordpress
@@ -13,7 +23,7 @@ entries:
     version: v0.0.37
   - apiVersion: v2
     appVersion: v0.0.36
-    created: "2023-05-06T21:49:03.016421897+03:00"
+    created: "2023-05-06T18:52:41.907329976Z"
     description: A Helm chart for Kubernetes
     digest: 3bf24876e3d1cfaf757bfb34ee3cc5482f3d6ab4c4614df8aa9ae05c738e77df
     name: wordpress
@@ -23,7 +33,7 @@ entries:
     version: v0.0.36
   - apiVersion: v2
     appVersion: v0.0.32
-    created: "2023-05-06T21:49:03.01420035+03:00"
+    created: "2023-05-06T18:52:41.906957862Z"
     description: A Helm chart for Kubernetes
     digest: 109ce90f3c82bb8a4d3b7db296f291fe68468c7c1db7a4552a245fe594d4a2b5
     name: wordpress
@@ -31,4 +41,54 @@ entries:
     urls:
     - https://nickvab.github.io/app_for_project/helm-releases/wordpress-v0.0.32.tgz
     version: v0.0.32
-generated: "2023-05-06T21:49:03.011364529+03:00"
+  - apiVersion: v2
+    appVersion: v0.0.26
+    created: "2023-05-06T17:42:58.219680211Z"
+    description: A Helm chart for Kubernetes
+    digest: a9cb40195cadc959602dcc959dffb1634ae7c10d609d08f06132a234cc95748c
+    name: wordpress
+    type: application
+    urls:
+    - https://nickvab.github.io/app_for_project/wordpress-v0.0.26.tgz
+    version: v0.0.26
+  - apiVersion: v2
+    appVersion: v0.0.25
+    created: "2023-05-06T17:42:58.2193135Z"
+    description: A Helm chart for Kubernetes
+    digest: 23de23215c5813153c6a086f6b80e828f67cc5cee972de2fdcb0f7a3e7b76b14
+    name: wordpress
+    type: application
+    urls:
+    - https://nickvab.github.io/app_for_project/wordpress-v0.0.25.tgz
+    version: v0.0.25
+  - apiVersion: v2
+    appVersion: v0.0.23
+    created: "2023-05-06T17:42:58.218862186Z"
+    description: A Helm chart for Kubernetes
+    digest: b50220c41f738bd17b460ec4ea37940d76c3e070a8fd220994090f4ff629b9ab
+    name: wordpress
+    type: application
+    urls:
+    - https://nickvab.github.io/app_for_project/wordpress-v0.0.23.tgz
+    version: v0.0.23
+  - apiVersion: v2
+    appVersion: v0.0.22
+    created: "2023-05-06T17:42:58.218443774Z"
+    description: A Helm chart for Kubernetes
+    digest: fd8b2904302db9b47b7fc2a9fc21c28f48b56239382e1d4ec3a1489b4a136fe2
+    name: wordpress
+    type: application
+    urls:
+    - https://nickvab.github.io/app_for_project/wordpress-v0.0.22.tgz
+    version: v0.0.22
+  - apiVersion: v2
+    appVersion: v0.0.21
+    created: "2023-05-06T17:42:58.218035561Z"
+    description: A Helm chart for Kubernetes
+    digest: 3e6608f5c4e298f307229107c186ad526fe226bacdf70cae3c4793e09ae1574c
+    name: wordpress
+    type: application
+    urls:
+    - https://nickvab.github.io/app_for_project/wordpress-v0.0.21.tgz
+    version: v0.0.21
+generated: "2023-05-06T18:52:41.906359141Z"
