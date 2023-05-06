@@ -34,10 +34,10 @@ jobs:
           push: true
           tags: nickvab/wordpress:${{ steps.tag_version.outputs.new_tag }}
           
-      - name: Helm tool
-        uses: Azure/setup-helm@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          #      - name: Helm tool
+          #        uses: Azure/setup-helm@v3
+          #        env:
+          #          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
       - name: Publish Helm charts
         uses: stefanprodan/helm-gh-pages@master
