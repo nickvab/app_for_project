@@ -41,7 +41,7 @@ jobs:
         run: |
           cd Helm/helm-source
           helm package wordpress --version=${{ steps.tag_version.outputs.new_tag }} --app-version=${{ steps.tag_version.outputs.new_tag }}
-          mv wordpress-v* ../helm-releases
+          mv wordpress-v* ../../Helm
           cd ../..
           helm repo index --url https://nickvab.github.io/app_for_project/ --merge index.yaml .
       
