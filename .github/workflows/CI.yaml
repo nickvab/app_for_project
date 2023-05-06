@@ -50,12 +50,12 @@ jobs:
           app_version: ${{ steps.tag_version.outputs.new_tag }}
           chart_version: ${{ steps.tag_version.outputs.new_tag }}
 
-      - name: Slack Notification
-        uses: rtCamp/action-slack-notify@v2
-        env:
-          SLACK_CHANNEL: nickvab_git
-          SLACK_COLOR: ${{ job.status }}
-          SLACK_MESSAGE: 'A new version of the project has been released'
-          SLACK_TITLE: 'Good job!'
-          SLACK_USERNAME: agent
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+          #      - name: Slack Notification
+          #        uses: rtCamp/action-slack-notify@v2
+          #        env:
+          #          SLACK_CHANNEL: nickvab_git
+          #          SLACK_COLOR: ${{ job.status }}
+          #          SLACK_MESSAGE: 'A new version of the project has been released'
+          #          SLACK_TITLE: 'Good job!'
+          #          SLACK_USERNAME: agent
+          #          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
