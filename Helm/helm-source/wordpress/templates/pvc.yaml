@@ -11,6 +11,7 @@ spec:
   resources:
     requests:
       storage: {{ .Values.persistentVolumeClaim.storageSize }}
+      storageClassName: {{ .Values.persistentVolumeClaim.storage_class }}
   selector:
     matchLabels:
       name: wordpress-nfs-vol

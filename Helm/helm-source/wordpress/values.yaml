@@ -14,6 +14,7 @@ ingress:
 
 persistentVolumeClaim:
   storageSize: 8Gi
+  storage_class: nfs
 
 env:
   - name: WORDPRESS_DB_HOST
