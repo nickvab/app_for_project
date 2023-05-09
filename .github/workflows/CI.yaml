@@ -56,8 +56,7 @@ jobs:
         env:
           SLACK_CHANNEL: nickvab_git
           SLACK_COLOR: ${{ job.status }} 
-          SLACK_MESSAGE: 'A new version has been released'
+          SLACK_MESSAGE: 'A new image ${{ github.repository }}:${{ github.ref_name }} has been released'
           SLACK_TITLE: Status
-          SLACK_USERNAME: GitHub
+          SLACK_USERNAME: ${{ github.repository }}
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }} 
-
