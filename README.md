@@ -1,6 +1,6 @@
 # Project report
 
-**Project's reporter:** First Name, Surname
+**Project's reporter:** Nickolai Vabishchevich
 
 **Group number:** md-sa2-23-23
 
@@ -18,11 +18,11 @@
 
 ## Technologies which were used in project
 
-**Orchestration:** Jenkins, git runners, cron, kubeplayer ...
+**Orchestration:** Kubernetes
 
-**Automation tools:** Ansible, puppet, bash, python....
+**Automation tools:** Ansible, GitHub Actions, ArgoCD
 
-**CI description:** by hook/schedule/poll, tests, checks ....
+**CI description:** 
 
 **Deployment flows short description:**
 

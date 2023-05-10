@@ -1,7 +1,7 @@
 replicaCount: 2
 
 image:
-  repository: nickvab/wordpresss
+  repository: nickvab/wordpress
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
