@@ -28,10 +28,6 @@
 
 **Notification:** Slack
 
-**CI description:** 
-
-**Deployment flows short description:**
-
 ## Links
 
 [Project Repository](https://github.com/nickvab/app_for_project)
