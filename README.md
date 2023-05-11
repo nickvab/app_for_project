@@ -22,15 +22,15 @@
 
 **Automation tools:** Ansible, GitHub Actions, ArgoCD
 
+**Other uses tools:** HELM, Docker, MariaDB
+
+**SCM:** Github
+
+**Notification:** Slack
+
 **CI description:** 
 
 **Deployment flows short description:**
-
-How does new/upgrade deployment work
-
-Rollback flow description and implementation:
-
-How does rollback work, triggers ...
 
 ## Links
 
